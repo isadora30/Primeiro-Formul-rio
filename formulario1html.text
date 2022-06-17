@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="formulario1.css" media="screen" />
+    <title>INSCRIÇÃO</title>
+    </head>
+<body>
+    <div>
+    <H1>SEJA UM RESILIENTE,</H1>
+    <h3>Faça parte da mais nova turma Resilia :)</h3>
+    </div>
+<form>
+    <div>
+        <label for="nome completo">Nome Completo:</label>
+        <input type="text" id="nome completo" />
+    </div>
+    <div>
+        <label for="ano de nascimento"></label>
+        Data de nascimento: <input type="date" name="nascimento">
+    </div>
+    <div>
+        <label for="numeros cpf">CPF:</label>
+        <textarea id="msg"></textarea>
+    </div>
+    <div class="button">
+        <button type="submit">Partiu Resilia!</button>
+    </div>
+</form>
+</body>
+</html>
